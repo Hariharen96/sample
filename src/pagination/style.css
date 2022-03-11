@@ -1,0 +1,27 @@
+p {
+  font-size: 1rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.pagination a {
+  padding: 10px;
+  margin: 8px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+.pagination a:hover {
+  color: #fff;
+  background-color: blue;
+}
+
+.pageactive a {
+  color: #fff;
+  background-color: blue;
+}
